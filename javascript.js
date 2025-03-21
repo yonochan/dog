@@ -7,8 +7,8 @@ let aper = gest.toLowerCase();
 
 let truenetru = para.includes(aper);
 
-let slic = gest.slice(0,1);
-let slic2 = gest.slice(1,gest.length);
+let slic = aper.slice(0,1);
+let slic2 = aper.slice(1,gest.length);
 
 let lover = slic.toUpperCase() + slic2;
 
