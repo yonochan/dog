@@ -3,9 +3,9 @@ let para = ["лаки","ягер", "миша", "лакки", "lucky", "laki", "l
 
 let gest = prompt("наши собаки ");
 
-let aper = gest.toLowerCase;
+let aper = gest.toLowerCase();
 
-let truenetru = para.includes(gest);
+let truenetru = para.includes(aper);
 
 let slic = gest.slice(0,1);
 let slic2 = gest.slice(1,gest.length);
